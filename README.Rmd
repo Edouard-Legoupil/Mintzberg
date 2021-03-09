@@ -1,0 +1,83 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+# Mintzberg
+
+This package  aims a producing Mintzberg chart 
+
+![alt text](inst/Technostructure.svg)
+
+Mintzberg chart allows to visualise what implicit decision are being made when designing an organisational structure. 
+
+The main [successful organizational structures](https://www.mindtools.com/pages/article/newSTR_54.htm) that can be identified are as follows:
+
+ *  The entrepreneurial organization. 
+    * _Prime Coordinating Mechanism:_ Direct supervision  
+    *  _Key Part of Organization:_ Strategic apex  
+    *  _Type of Decentralization:_ Vertical and horizontal decentralization
+
+ *  The machine organization (bureaucracy).  
+    * _Prime Coordinating Mechanism:_ Standardization of work processes 
+    *  _Key Part of Organization:_ Technostructure  
+    *  _Type of Decentralization:_ Limited horizontal decentralization
+
+ *  The professional organization. 
+    *  _Prime Coordinating Mechanism:_ Standardization of skills  
+    *  _Key Part of Organization:_ Operating core  
+    *  _Type of Decentralization:_ Vertical and horizontal decentralization
+
+ *  The divisional (diversified) organization.  
+    * _Prime Coordinating Mechanism:_ Standardization of outputs  
+    *  _Key Part of Organization:_ Middle line  
+    *  _Type of Decentralization:_ Limited vertical decentralization
+
+ *  The innovative organization ("adhocracy").  
+    * _Prime Coordinating Mechanism:_ Mutual adjustment  
+    *  _Key Part of Organization:_ Support staff  
+    *  _Type of Decentralization:_ Selective decentralization
+
+
+In order to detect the [above structure](https://platform.europeanmoocs.eu/users/8/Lunenburg-Fred-C.-Organizational-Structure-Mintzberg-Framework-IJSAID-V14-N1-2012.pdf), staff functions need first to be grouped according to the following categories:
+
+ *  The __strategic apex__ is top management and its support staff.  In school districts, this is the superintendent of schools and the administrative cabinet.
+ 
+ *  The  __operative  core__ are the workers who actually carry out the organization’s tasks.  Teachers constitute the operative core in school districts.  
+ 
+ *  The  __middle  line__ is  middle-and  lower-level  management.    Principals  are  the  middle-level managers in school districts.  
+
+ *  The   __technostructure__ are   analysts   such   as   engineers,   accountants,   planners, researchers, and personnel managers. In school districts, divisions such as instruction, business,   personnel, public   relations, research   and   development,   and   the   like constitute the technostructure.  
+ 
+ *  The  __support  staff__ are  the  people  who  provide  indirect  services.    In  school  districts, similar services include maintenance, clerical, food service, busing, legal counsel, and consulting to provide support.
+
+## Installation
+
+You can install `IatiTidy` from GitHub with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("Edouard-Legoupil/Mintzberg")
+```
+
+Users are welcome to flag bugs and or submit feature request [here](https://github.com/Edouard-Legoupil/Mintzberg/issues/new)
+
+#### Building package documentation 
+
+`devtools::document()`
+
+`devtools::check(document = FALSE)`
+
+`pkgdown::build_site()` 
+
+## Usage
+
+see vignette
